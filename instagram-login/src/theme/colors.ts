@@ -1,8 +1,8 @@
 const colors = {
-  alabastar: '#fafafa',
+  alabastar: 'hsla(0, 0%, 98.04%, 1)',
   black: 'hsla(0, 0%, 0%, 1)',
   blackTransparent: (opacity: number) => `hsla(0, 0%, 0%, ${opacity})`,
-  mineShaft: '#262626',
+  mineShaft: 'hsla(0, 0%, 14.9%, 1)',
   pictonBlue: 'hsla(208.7, 85.19%, 57.65%, 1)',
   pictonBlueTransparent: (opacity: number) =>
     `hsla(208.7, 85.19%, 57.65%, ${opacity})`,
