@@ -1,0 +1,1 @@
+export { IPost } from './IPost';
