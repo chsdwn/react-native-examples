@@ -41,6 +41,8 @@ export const ListScreen = () => {
           } else if (!scrollingDown && y < HEIGHT_VISIBILITY_THRESHOLD) {
             top.value = withSpring(0, { damping: 16 });
           }
+
+          scrollYRef.current = y;
         }}
         contentContainerStyle={[
           styles.listContainer,
