@@ -9,7 +9,7 @@ export const App = () => {
   const countryCode = useMemo(() => country?.cca2 ?? 'TR', [country?.cca2]);
   const [phoneNumber, setPhoneNumber] = useState('');
 
-  // Converts "(###)###-####" to ["(", /\d/, /\d/, /\d/, ")", /\d/, /\d/, /\d/, /\d/, "-", /\d/, /\d/, /\d/, /\d/]
+  // Converts "(###)###-####" to ["(", /\d/, /\d/, /\d/, ")", /\d/, /\d/, /\d/, "-", /\d/, /\d/, /\d/, /\d/]
   // https://github.com/CaioQuirinoMedeiros/react-native-mask-input?tab=readme-ov-file#mask
   const mask = countries
     .find(({ iso }) => iso === countryCode)
