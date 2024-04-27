@@ -35,3 +35,7 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Include Instagram story view native folders
+!instagram-story-view/android/
+!instagram-story-view/ios/
