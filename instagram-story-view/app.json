@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.chsdwn.instagramstoryview"
@@ -24,6 +22,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.chsdwn.instagramstoryview"
-    }
+    },
+    "plugins": ["./plugins/withStoryView"]
   }
 }
