@@ -1,0 +1,1 @@
+export { AppText } from './AppText';
