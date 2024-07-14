@@ -1,0 +1,25 @@
+{
+  "name": "lottie-animations-with-skottie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "@shopify/react-native-skia": "1.2.3",
+    "expo": "~51.0.20",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.3",
+    "react-native-reanimated": "~3.10.1",
+    "react-native-skottie": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
