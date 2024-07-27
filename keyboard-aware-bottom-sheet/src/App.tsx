@@ -41,7 +41,7 @@ export const App = () => {
           <BottomSheetFlatList
             data={new Array(10).fill(null)}
             keyExtractor={(_, index) => String(index)}
-            contentContainerStyle={styles.container}
+            contentContainerStyle={styles.listContainer}
             renderItem={({ index }) => (
               <BottomSheetTextInput
                 placeholder={`#${index} input`}
